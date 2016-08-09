@@ -1,0 +1,211 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+header {
+  margin-left: 42.64902%;
+  position: relative;
+  top: 1em;
+  left: 0.5em;
+  font-size: 4.23607em;
+  font-family: Cabin, sans-serif;
+  font-style: italic;
+  margin-top: 1em;
+  width: 1000px; }
+  header #thugger {
+    color: silver; }
+  header .element {
+    color: black; }
+
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  section article {
+    margin-left: 42.64902%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    position: relative;
+    top: 2em;
+    width: 100%;
+    font-family: 'Comfortaa'; }
+    section article:last-child {
+      margin-right: 0; }
+    section article div {
+      width: 100%;
+      background-color: transparent;
+      margin: 5em;
+      font-size: 1em;
+      padding: 2em 2em 2em 2em;
+      /*border: 2px #f9f9f9 solid; */
+      border-radius: 60px 10px 10px 60px;
+      line-height: 200%;
+      color: black !important;
+      text-align: center;
+      box-shadow: 0px 4px 4px -3px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      /*       &.slick-list.draggable {
+              box-shadow: none;
+              border: none;
+              background-color:transparent;
+              margin: 0;
+              padding: 0;
+            }
+            
+            &.slick-track {
+              box-shadow: none;
+              border: none;
+              background-color:transparent;
+              margin: 0;
+              padding: 0;
+            }
+            
+            &.slick-slide {
+              box-shadow: none;
+              border: none;
+              background-color:transparent;
+              margin: 3em;
+              padding-left: 2em;
+              
+            } */ }
+  section footer {
+    left: 40em;
+    width: 100%; }
+
+#music {
+  border: none;
+  padding: 0 1em 0 1em;
+  box-shadow: none; }
+
+#typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.hideme {
+  opacity: 0; }
+
+.soundcloud {
+  border: none; }
+
+/* img {
+  width: 480px;
+  height: 270px;
+  margin: 0 1em;
+  border-radius: 2px;
+  background-color:transparent;
+} */
+/* .slick-arrow {
+  &.slick-prev {
+    background-color: silver;
+  border-radius: 20px;
+    &:focus {
+      background-color: silver;
+      border-radius: 20px;
+        }
+    }
+    &:hover, &:active, &:visited{
+      background-color: gray;
+      border-radius: 20px;
+    }
+  &.slick-next {
+    background-color: silver;
+  border-radius: 20px;
+    &:focus {
+      background-color: silver;
+      border-radius: 20px;
+  }}
+  
+  } */
+p {
+  background-color: silver;
+  width: 50%;
+  margin-left: 11em;
+  text-align: center; }
+
+#main {
+  margin-top: 1em; }
+
+div.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
+li {
+  font-size: 1em;
+  color: silver;
+  opacity: 0.5;
+  list-style: none; }
+
+ul {
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: hotpink;
+  font-weight: bold; }
+  a:hover {
+    text-decoration: underline; }
+
+/* .slick-current {
+    &img {
+        border: 2px silver solid;
+        border-radius: 5px;
+    }
+} */
+/* img {
+    width: 100%;
+}
+
+#gallery div {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+#gallery {
+    margin-top: 4em;
+    margin-left: 20em;
+}
+
+div.owl-prev {
+    background-color: silver !important;
+}
+
+.owl-next {
+    background-color: silver !important;
+} */
+body {
+  width: 80%; }
+
+/*# sourceMappingURL=site.css.map */

@@ -1,0 +1,168 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.hideme {
+  opacity: 0; }
+
+.soundcloud {
+  border: none; }
+
+li {
+  font-size: 1em;
+  color: silver;
+  opacity: 0.5;
+  list-style: none; }
+
+ul {
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: hotpink;
+  font-weight: bold; }
+  a:hover {
+    font-weight: 900; }
+
+#main-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(young-thug_0.jpg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: cover; }
+  #main-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+header {
+  font-size: 4.23607em;
+  font-family: Cabin, sans-serif;
+  font-style: italic;
+  padding-left: 2em;
+  display: block; }
+  header::after {
+    clear: both;
+    content: "";
+    display: block; }
+  header #thugger {
+    color: white;
+    text-shadow: -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  header .element {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: 800px; }
+
+#main-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  #main-content:last-child {
+    margin-right: 0; }
+  #main-content div {
+    padding-top: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9px;
+    line-height: 1.5;
+    border-top: 2px silver solid;
+    border-bottom: 2px silver solid;
+    text-align: center; }
+    #main-content div#music {
+      background-color: transparent; }
+
+#p1 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-left: 51.78933%;
+  margin-right: 0;
+  margin-left: 5em; }
+  #p1:last-child {
+    margin-right: 0; }
+
+#p2 {
+  margin-left: 34.11922%;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-right: 0; }
+  #p2:last-child {
+    margin-right: 0; }
+
+#p3 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-right: 0;
+  margin-left: 1em; }
+  #p3:last-child {
+    margin-right: 0; }
+
+#last {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 61.158%;
+  margin-left: 25.89467%;
+  margin-right: 0;
+  background-color: transparent !important;
+  text-align: center; }
+  #last:last-child {
+    margin-right: 0; }
+
+#music {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 74.10533%;
+  margin-left: 12.94733%;
+  border: none !important;
+  padding: 0 1em 0 1em;
+  box-shadow: none; }
+  #music:last-child {
+    margin-right: 0; }
+  #music a p {
+    text-align: center;
+    line-height: 0.8; }
+
+/*# sourceMappingURL=site.css.map */

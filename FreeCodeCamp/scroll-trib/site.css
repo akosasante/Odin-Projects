@@ -22,19 +22,38 @@ header {
   font-weight: bold;
   font-variant: small-caps;
   text-align: center; }
-  header div {
+  header #header {
     display: block;
-    color: #fff0f0;
-    text-shadow: #00002E 0 1px 0, #000 0 2px 0, #000 0 3px 0, #000 0 4px 0, #000 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px;
-    padding-top: 5em; }
-    header div::after {
+    margin-left: 8.5298%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    padding-top: 1vh;
+    padding-bottom: 3vh; }
+    header #header::after {
       clear: both;
       content: "";
       display: block; }
-    header div #typed-element {
+    header #header:last-child {
+      margin-right: 0; }
+    header #header div#container {
+      color: #fff0f0;
+      text-shadow: #00002E 0 1px 0, #000 0 2px 0, #000 0 3px 0, #000 0 4px 0, #000 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px; }
+    header #header #typed-element {
       color: purple;
       -webkit-text-stroke: 1px black;
       text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+#main-head {
+  padding-bottom: 2vh;
+  border: 2px solid black;
+  background: silver;
+  opacity: 0.5;
+  height: min-content;
+  border-radius: 1px 1px 1px 1px;
+  position: absolute;
+  top: 30vh; }
 
 #content {
   max-width: 1200px;

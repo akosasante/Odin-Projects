@@ -21,11 +21,16 @@ header {
     font-weight: bold;
     font-variant: small-caps;
     text-align: center;
-    div {
+    #header {
         @include row;
-        color: #fff0f0;
-        text-shadow: #00002E 0 1px 0, #000 0 2px 0, #000 0 3px 0, #000 0 4px 0, #000 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
-        padding-top: 5em;
+        @include shift(1);
+        @include span-columns(10);
+        @include padding(1vh null 3vh null);
+            div#container {
+           
+            color: #fff0f0;
+            text-shadow: #00002E 0 1px 0, #000 0 2px 0, #000 0 3px 0, #000 0 4px 0, #000 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
+        }
 
     #typed-element {
         color: purple;
@@ -38,6 +43,17 @@ header {
        1px 1px 0 #000;
         }
     }
+}
+
+#main-head {
+@include padding(null null 2vh null);
+border: 2px solid black;
+background: silver;
+opacity: 0.5;
+height: min-content;
+border-radius: 1px 1px 1px 1px;
+position: absolute;
+top: 30vh;
 }
 
 #content {
